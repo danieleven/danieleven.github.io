@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	  <url>
+		<loc>/clean-architecture-android/</loc>
+	  </url>
+	
+	  <url>
+		<loc>/post-android/</loc>
+	  </url>
+	
+	  <url>
+		<loc>/welcome-to-jekyll/</loc>
+	  </url>
+	
+	  <url>
+		<loc>/how-to-use/</loc>
+	  </url>
+	
+</urlset>
