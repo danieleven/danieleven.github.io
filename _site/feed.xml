@@ -3,10 +3,10 @@
   <channel>
     <title>Daniel Flores Aguilar</title>
     <description>A blog about lorem ipsum dolor sit amet</description>
-    <link>danieleven.github.io/</link>
-    <atom:link href="danieleven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Dec 2016 23:22:27 -0600</pubDate>
-    <lastBuildDate>Thu, 29 Dec 2016 23:22:27 -0600</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 30 Dec 2016 00:04:11 -0600</pubDate>
+    <lastBuildDate>Fri, 30 Dec 2016 00:04:11 -0600</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Mon, 26 Dec 2016 08:14:50 -0600</pubDate>
-        <link>danieleven.github.io/clean-architecture-android/</link>
-        <guid isPermaLink="true">danieleven.github.io/clean-architecture-android/</guid>
+        <link>/clean-architecture-android/</link>
+        <guid isPermaLink="true">/clean-architecture-android/</guid>
         
         <category>android</category>
         
@@ -27,8 +27,8 @@
         <description>&lt;p&gt;Hello this is my post&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Sep 2015 08:27:19 -0500</pubDate>
-        <link>danieleven.github.io/post-android/</link>
-        <guid isPermaLink="true">danieleven.github.io/post-android/</guid>
+        <link>/post-android/</link>
+        <guid isPermaLink="true">/post-android/</guid>
         
         <category>android</category>
         

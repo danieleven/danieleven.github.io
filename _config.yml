@@ -2,12 +2,12 @@
 title: Daniel Flores Aguilar
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "danieleven.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # User settings
 username: Daniel Flores
 user_description: Mobile devices developer and Web Developer
-user_title: Mobile Engineer
+user_title: Mobile Developer
 email: daniel.flores.fullstack@gmail.com
 twitter_username: dummy_twitter
 github_username:  danieleven
@@ -35,7 +35,7 @@ links:
   - title: Android
     url: /android
   - title: iOS
-    url: /tags
+    url: /ios
   - title: Python ¬ Django
   - title: About Me
     url: /about
