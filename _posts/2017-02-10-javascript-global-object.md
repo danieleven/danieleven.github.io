@@ -9,11 +9,15 @@ categories: JS
 twitter_text:
 ---
 
-En Js existe un objeto que no necesita ser creado porque por el simple hecho de correr el programa ya existe, este
-objeto se le conoce como 'Global Object', al igual que los demas objetos tiene propiedades y es por esa razon que cuando
-creas una varialble en Js sin la palabra reservada 'var' o 'function' esta pasa a formar una propiedad del Objeto Global
+El objeto global en JS es un Objeto regular de Javascript que sirve para un importante proposito:  las propiedades de este objeto son definidas globales que estan disponibles para todo el programa JS. Cuando el interprete de JS inicia (o cuando el navegador web carga una nueva pagina), esta crea un objeto global y le da un conjunto de propiedades iniciales:
+
+Propiedades globales como <b>undefined</b>, <b>Infinity</b> y <b>NaN</b>
+Funciones globales como <b>isNaN()</b>, <b>parseInt()</b> y <b>eval()</b>
+Funciones constructoras como <b>Date()</b>, <b>RegExp()</b>, <b>String()</b>, <b>Object</b> y <b>Array()</b>
 
 {% highlight javascript %}
+//	Define a global variable para referirse al objeto global
+var global = this;
 //	Global object property
 y = 'Soy una propiedad del objeto global.'
 //	Normal property
