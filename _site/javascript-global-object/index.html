@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Clean Architecture Android</title>
-    <meta name="description" content="A blog about lorem ipsum dolor sit amet">
+    <title>Javascript Global Object</title>
+    <meta name="description" content="About global object in Javascript, how it works">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/u/0/110636930589456685300?rel=author">
@@ -14,24 +14,24 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@dummy_twitter">
-    <meta name="twitter:title" content="Clean Architecture Android">
-    <meta name="twitter:description" content="A blog about lorem ipsum dolor sit amet">
+    <meta name="twitter:title" content="Javascript Global Object">
+    <meta name="twitter:description" content="About global object in Javascript, how it works">
     
-    <meta property="twitter:image:src" content="http://localhost:4000/assets/img/clean.png">
+    <meta property="twitter:image:src" content="http://localhost:4000/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="http://localhost:4000/clean-architecture-android/">
-    <meta property="og:title" content="Clean Architecture Android">
+    <meta property="og:url" content="http://localhost:4000/javascript-global-object/">
+    <meta property="og:title" content="Javascript Global Object">
     
-    <meta property="og:image" content="http://localhost:4000/assets/img/clean.png">
+    <meta property="og:image" content="http://localhost:4000/assets/img/">
     
-    <meta property="og:description" content="A blog about lorem ipsum dolor sit amet">
+    <meta property="og:description" content="About global object in Javascript, how it works">
     <meta property="og:site_name" content="Daniel Flores Aguilar">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Clean Architecture Android"/>
-    <meta itemprop="description" content="A blog about lorem ipsum dolor sit amet">
+    <meta itemprop="name" content="Javascript Global Object"/>
+    <meta itemprop="description" content="About global object in Javascript, how it works">
     <meta itemprop="image" content="http://localhost:4000/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -58,7 +58,7 @@
 
     <!--<link rel="stylesheet" href="assets/css/main.css">-->
 	<link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/clean-architecture-android/">
+    <link rel="canonical" href="http://localhost:4000/javascript-global-object/">
     <link rel="alternate" type="application/rss+xml" title="Daniel Flores Aguilar" href="http://localhost:4000/feed.xml" />
 </head>
 
@@ -68,10 +68,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2016-12-26 08:14:50 -0600" class="date">26 Dec 2016</time>
+            <time itemprop="datePublished" datetime="2017-02-10 17:57:09 -0600" class="date">10 Feb 2017</time>
         
-        <h1 class="post-title" itemprop="name">Clean Architecture Android</h1>
-        <p itemprop="description" class="subtitle"></p>
+        <h1 class="post-title" itemprop="name">Javascript Global Object</h1>
+        <p itemprop="description" class="subtitle">About global object in Javascript, how it works</p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -124,21 +124,29 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                
+                <p>En Js existe un objeto que no necesita ser creado porque por el simple hecho de correr el programa ya existe, este
+objeto se le conoce como ‘Global Object’, al igual que los demas objetos tiene propiedades y es por esa razon que cuando
+creas una varialble en Js sin la palabra reservada ‘var’ o ‘function’ esta pasa a formar una propiedad del Objeto Global</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">//	Global object property</span>
+<span class="nx">y</span> <span class="o">=</span> <span class="s1">'Soy una propiedad del objeto global.'</span>
+<span class="c1">//	Normal property</span>
+<span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s1">'Yo no soy propiedad del objeto global'</span><span class="p">;</span></code></pre></figure>
+
 
             </article>
 
             <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/clean-architecture-android/%20via%20&#64;dummy_twitter&hashtags=android,"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/javascript-global-object/%20via%20&#64;dummy_twitter&hashtags=Javascript,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer.php?u=http://localhost:4000/clean-architecture-android/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer.php?u=http://localhost:4000/javascript-global-object/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/clean-architecture-android/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/javascript-global-object/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -167,7 +175,7 @@
         disqus_loaded = true;
         var disqus_shortname = 'Daniel Reader';
         var disqus_title = '';
-        var disqus_url = '/clean-architecture-android/';
+        var disqus_url = '/javascript-global-object/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
