@@ -2,7 +2,7 @@
 title: Daniel Flores Aguilar
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://danieleve.github.io" # the base hostname & protocol for your site
 
 # User settings
 username: Daniel Flores
