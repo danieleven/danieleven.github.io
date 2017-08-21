@@ -3,18 +3,18 @@
   <channel>
     <title>Daniel Flores Aguilar</title>
     <description>A blog about lorem ipsum dolor sit amet</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Feb 2017 00:28:10 -0600</pubDate>
-    <lastBuildDate>Sat, 11 Feb 2017 00:28:10 -0600</lastBuildDate>
+    <link>https://danieleven.github.io/</link>
+    <atom:link href="https://danieleven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 Mar 2017 17:07:49 -0600</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2017 17:07:49 -0600</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Wrapper Objects</title>
         <description>&lt;p&gt;Hola&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Native Data&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Soy una cadena de caracteres'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Object Data&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;STRING&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;NUMBER&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;BOOLEAN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Boolean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;inherit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span...</description>
         <pubDate>Fri, 10 Feb 2017 18:19:40 -0600</pubDate>
-        <link>http://localhost:4000/wrapper-objects/</link>
-        <guid isPermaLink="true">http://localhost:4000/wrapper-objects/</guid>
+        <link>https://danieleven.github.io/wrapper-objects/</link>
+        <guid isPermaLink="true">https://danieleven.github.io/wrapper-objects/</guid>
         
         <category>Javascript</category>
         
@@ -27,10 +27,10 @@
     
       <item>
         <title>Javascript Global Object</title>
-        <description>&lt;p&gt;En Js existe un objeto que no necesita ser creado porque por el simple hecho de correr el programa ya existe, este objeto se le conoce como ‘Global Object’, al igual que los demas objetos tiene propiedades y es por esa razon que cuando creas una varialble en Js sin la palabra reservada ‘var’ o ‘function’ esta pasa a formar una propiedad del Objeto Global&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Global object property&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Soy una propiedad del objeto global.'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Normal property&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Yo no soy propiedad del...</description>
+        <description>&lt;p&gt;El objeto global en JS es un Objeto regular de Javascript que sirve para un importante proposito: las propiedades de este objeto son definidas globales que estan disponibles para todo el programa JS. Cuando el interprete de JS inicia (o cuando el navegador web carga una nueva pagina), esta crea un objeto global y le da un conjunto de propiedades iniciales:&lt;/p&gt; &lt;p&gt;Propiedades globales como &lt;b&gt;undefined&lt;/b&gt;, &lt;b&gt;Infinity&lt;/b&gt; y &lt;b&gt;NaN&lt;/b&gt; Funciones globales como &lt;b&gt;isNaN()&lt;/b&gt;, &lt;b&gt;parseInt()&lt;/b&gt; y &lt;b&gt;eval()&lt;/b&gt; Funciones constructoras como &lt;b&gt;Date()&lt;/b&gt;, &lt;b&gt;RegExp()&lt;/b&gt;, &lt;b&gt;String()&lt;/b&gt;, &lt;b&gt;Object&lt;/b&gt; y &lt;b&gt;Array()&lt;/b&gt;&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Define a global variable para referirse al objeto global&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt;...</description>
         <pubDate>Fri, 10 Feb 2017 17:57:09 -0600</pubDate>
-        <link>http://localhost:4000/javascript-global-object/</link>
-        <guid isPermaLink="true">http://localhost:4000/javascript-global-object/</guid>
+        <link>https://danieleven.github.io/javascript-global-object/</link>
+        <guid isPermaLink="true">https://danieleven.github.io/javascript-global-object/</guid>
         
         <category>Javascript</category>
         
@@ -44,8 +44,8 @@
         <description>
 </description>
         <pubDate>Mon, 26 Dec 2016 08:14:50 -0600</pubDate>
-        <link>http://localhost:4000/clean-architecture-android/</link>
-        <guid isPermaLink="true">http://localhost:4000/clean-architecture-android/</guid>
+        <link>https://danieleven.github.io/clean-architecture-android/</link>
+        <guid isPermaLink="true">https://danieleven.github.io/clean-architecture-android/</guid>
         
         <category>android</category>
         
@@ -57,8 +57,8 @@
         <description>&lt;p&gt;Hello this is my post&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Sep 2015 08:27:19 -0500</pubDate>
-        <link>http://localhost:4000/post-android/</link>
-        <guid isPermaLink="true">http://localhost:4000/post-android/</guid>
+        <link>https://danieleven.github.io/post-android/</link>
+        <guid isPermaLink="true">https://danieleven.github.io/post-android/</guid>
         
         <category>android</category>
         

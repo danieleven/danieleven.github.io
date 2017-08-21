@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://localhost:4000/wrapper-objects/</loc>
+		<loc>https://danieleven.github.io/wrapper-objects/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/javascript-global-object/</loc>
+		<loc>https://danieleven.github.io/javascript-global-object/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/clean-architecture-android/</loc>
+		<loc>https://danieleven.github.io/clean-architecture-android/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/post-android/</loc>
+		<loc>https://danieleven.github.io/post-android/</loc>
 	  </url>
 	
 </urlset>
