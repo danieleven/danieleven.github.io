@@ -124,11 +124,15 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>En Js existe un objeto que no necesita ser creado porque por el simple hecho de correr el programa ya existe, este
-objeto se le conoce como ‘Global Object’, al igual que los demas objetos tiene propiedades y es por esa razon que cuando
-creas una varialble en Js sin la palabra reservada ‘var’ o ‘function’ esta pasa a formar una propiedad del Objeto Global</p>
+                <p>El objeto global en JS es un Objeto regular de Javascript que sirve para un importante proposito:  las propiedades de este objeto son definidas globales que estan disponibles para todo el programa JS. Cuando el interprete de JS inicia (o cuando el navegador web carga una nueva pagina), esta crea un objeto global y le da un conjunto de propiedades iniciales:</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">//	Global object property</span>
+<p>Propiedades globales como <b>undefined</b>, <b>Infinity</b> y <b>NaN</b>
+Funciones globales como <b>isNaN()</b>, <b>parseInt()</b> y <b>eval()</b>
+Funciones constructoras como <b>Date()</b>, <b>RegExp()</b>, <b>String()</b>, <b>Object</b> y <b>Array()</b></p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">//	Define a global variable para referirse al objeto global</span>
+<span class="kd">var</span> <span class="nx">global</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+<span class="c1">//	Global object property</span>
 <span class="nx">y</span> <span class="o">=</span> <span class="s1">'Soy una propiedad del objeto global.'</span>
 <span class="c1">//	Normal property</span>
 <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="s1">'Yo no soy propiedad del objeto global'</span><span class="p">;</span></code></pre></figure>
@@ -170,16 +174,16 @@ creas una varialble en Js sin la palabra reservada ‘var’ o ‘function’ es
 <script type="text/javascript">
     var disqus_loaded = false;
 
-    function load_disqus()
-    {
-        disqus_loaded = true;
-        var disqus_shortname = 'Daniel Reader';
-        var disqus_title = '';
-        var disqus_url = '/javascript-global-object/';
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        var ldr = document.getElementById('disqus_loader');
+    function load_disqus(){
+		var disqus_config = function(){
+			this.page.url = 'http://localhost:4000/javascript-global-object/';
+			this.page.identifier = '/javascript-global-object/';
+		}
+		var d = document, s = d.createElement('script');
+		s.src = '//danieleven-github-io.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		disqus_loaded = true;
     };
     window.onscroll = function(e) {
         if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
