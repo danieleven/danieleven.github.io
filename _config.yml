@@ -5,10 +5,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://danielfaguilar.github.io" # the base hostname & protocol for your site
 
 # User settings
-username: Daniel Flores
+username: Daniel
 user_description: Mobile devices developer and Web Developer
 user_title: Mobile Developer
-email: daniel.flores.fullstack@gmail.com
+email: Nothings
 twitter_username: dummy_twitter
 github_username:  
 gplus_username:  u/0/110636930589456685300
