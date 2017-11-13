@@ -1,14 +1,14 @@
 # Site settings
 title: Daniel Flores
-description: A blog about lorem ipsum dolor sit amet
+description: My own blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://danielfaguilar.github.io" # the base hostname & protocol for your site
 
 # User settings
-username: Daniel
+username: Daniel Flores
 user_description: Mobile devices developer and Web Developer
 user_title: Mobile Developer
-email: Nothings
+email: Nothing for now :c
 twitter_username: dummy_twitter
 github_username:  
 gplus_username:  u/0/110636930589456685300
